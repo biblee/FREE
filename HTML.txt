@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            margin-right:120px;
+            margin-left:120px;
+            margin-top:15px;
+            margin-bottom:15px;
+            background-color:white;
+        }
+
+        div{
+            background-color: #E9E9E9;
+        }
+
+        ul{
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #ff1763;
+        }
+
+        li{
+            display: inline;
+            float: right;
+        }
+
+        li a{
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+
+        div.img {
+            border: 1px solid #ccc;
+            box-shadow:2px 2px 3px #cccccc;
+        }
+
+        div.img:hover {
+            border: 1px solid #777;
+        }
+
+        div.img img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            background-color: white;
+            padding: 10px;
+            text-align: left;
+            font-family: "Calibri Light";
+            text-align: left;
+            position:relative;
+            top:0px;
+        }
+
+        div.foot{
+            text-align: center;
+            color: #c3c3c3;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 10px;
+            float: left;
+            width: 25%;
+            height: 25%;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="nacfist">
+    <ul id="mune"><img  class="i" src="WeChat%20Image_20180522190725.jpg" />
+        <li id="d"><a href="#">Help</a></li>
+        <li id="c"><a href="#">Contact</a></li>
+        <li id="b"><a href="#">Gallery</a></li>
+        <li id="q"><a href="#home">Home</a></li>
+    </ul>
+
+</div>
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 1</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 2</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 3</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 4</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 5</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 6</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 7</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 8</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 9</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 10</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 11</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Image Caption 12</div>
+    </div>
+</div>
+
+    <div class="foot">footer copyright  ?2018</div>
+
+
+</body>
+</html>
